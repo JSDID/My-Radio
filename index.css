@@ -1,0 +1,105 @@
+body {
+  background-color: #015a5a;
+}
+.player-mytuner-logo{
+    display: none !important;
+}
+.radio-section-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  h1 {
+    text-align: center;
+    font-family: "Montserrat";
+    color: #f4a460;
+    max-width: 350px;
+  }
+}
+
+.about__dev {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  h3 {
+    margin: 0;
+  }
+  a {
+    font-family: "Montserrat";
+    color: #f4a460;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+
+.mytuner-widget {
+  max-width: 350px !important;
+  margin: 0 auto;
+}
+.player-radio-name {
+  margin-left: 10px;
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  display: inline-block; /* Изменение на inline-block */
+  white-space: normal; /* Позволяет перенос текста */
+  font-size: 15px !important;
+  line-height: 1.2 !important;
+  white-space: revert !important;
+}
+
+input[type="range"][orient="vertical"] {
+  writing-mode: bt-lr; /* IE */
+  -webkit-appearance: slider-vertical; /* WebKit */
+  -moz-appearance: slider-vertical; /* Firefox */
+  appearance: slider-vertical; /* Standard */
+  width: 8px;
+  padding: 0 5px;
+}
+
+#w63DqsK\/w6HCu8OHwq7Drmc2w6peeioqw417wr3CvmBItop-bar
+  > a.player-radio-link
+  > span
+  > span:nth-child(3) {
+  display: none;
+}
+
+.player-radio-link {
+  width: 230px !important;
+  height: 100%;
+  /* display: inline-block; */
+  /* line-height: 65px; */
+  display: flex !important;
+  flex-direction: row !important;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  img{
+    margin-top: 0 ;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .radio-section-container {
+    h1 {
+      margin: 0 auto;
+      max-width: 350px;
+    }
+    .volume-controls {
+      display: none;
+    }
+  }
+  .mytuner-widget {
+    margin: 0 auto !important;
+    max-width: 350px !important;
+  }
+  #w63DqsK\/w6HCu8OHwq7Drmc2w6peeioqw417wr3CvmBItop-bar
+    > a.player-radio-link
+    > span
+    > span:nth-child(3) {
+    display: none;
+  }
+}
