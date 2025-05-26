@@ -1,3 +1,3 @@
 <h1>About</h1>
+<p></p>A minimalistic web-based radio tuner that lets you listen to your favorite online radio stations with a clean, user-friendly interface.</p>
 
-<p>Open the <a href="https://jsdid.github.io/Radio-tuner/">link</a> on your smartphone and connect.</p>
